@@ -1,4 +1,4 @@
-set(glslang_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/glslang)
+set(glslang_PREFIX ${CMAKE_CURRENT_LIST_DIR}/glslang)
 
 set(SPIRV_PREFIX "${glslang_PREFIX}/SPIRV")
 set(SPIRV_SOURCES
