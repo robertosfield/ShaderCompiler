@@ -27,4 +27,8 @@ if ((NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/glslang/CMakeLists.txt))
 endif()
 
 # source directory for main ShaderCompiler library
-add_subdirectory(glslang)
+# add_subdirectory(glslang)
+
+include(build_vars.cmake)
+
+
